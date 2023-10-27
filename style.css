@@ -151,3 +151,18 @@ img{
     color: #EDEAEA;
     text-decoration: none;
 }
+
+@media screen and (max-width:768px) {
+    section, aside{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    nav li{
+        float: none;
+        text-align: center;
+        width:100%;
+    }
+
+}
